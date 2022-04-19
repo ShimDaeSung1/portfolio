@@ -10,6 +10,20 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+margin: 0px 20px;
+}
+
+/* 화살표 색깔 */
+.slick-prev:before,
+.slick-next:before {
+color: black;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
