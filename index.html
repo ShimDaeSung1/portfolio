@@ -55,7 +55,7 @@
                   <li class="nav-item"><a class="nav-link" href="#services">Profile</a></li>
                   <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                   <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#team">Skills</a></li>
                   <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
               </ul>
           </div>
@@ -215,10 +215,34 @@
         </div>
     </section>
     </div>
-    <div >
-      <!-- div 추가할 것 -->
-      <h3 style="text-align:center; margin-top: 100%;">개발중입니다...</h3>
-    </div>
+    <div>
+        <section class="page-section bg-light" id="portfolio">
+          <div class="container">
+              <div class="text-center">
+                  <h2 class="section-heading text-uppercase">Portfolio</h2>
+                  <h3 class="section-subheading text-muted">Project Experience</h3>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Portfolio item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="new_assets/img/게시판(모델1).png" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">모델2 방식(MVC패턴) 자료실형 게시판</div>
+                            <div class="portfolio-caption-subheading text-muted">EL,JSTL,JSP,JDBC,Javascript,Servlet</div>
+                        </div>
+                    </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </section>
+      </div>
     <!-- 
     <div>
       3번째
@@ -296,18 +320,18 @@
         </li><br/>
         <li class="section-heading text-uppercase" style="font-size: 25px;"> 프론트엔드
             <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">HTML&CSS</ul>
-            <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">javascript&Jquery - Ajax</ul>
-            <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">Vue.js, React.js</ul>    
+            <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">javascript&Jquery</ul>
+            <!-- <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">Vue.js, React.js</ul>     -->
         </li><br/>
         <li class="section-heading text-uppercase" style="font-size: 25px;"> 백엔드
             <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">JSP&Servlet</ul>
-            <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">Node.js</ul>
+            <!-- <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">Node.js</ul> -->
             <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">Spring&Spring boot - 블로그 만들기</ul>    
-            <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">MyBatis</ul>
+            <!-- <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">MyBatis</ul> -->
         </li><br/>
-        <li class="section-heading text-uppercase" style="font-size: 25px;"> 앱
-            <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">안드로이드 Native App</ul>
-            <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">Hybrid App</ul>
+        <!-- <li class="section-heading text-uppercase" style="font-size: 25px;"> 앱 -->
+            <!-- <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">안드로이드 Native App</ul> -->
+            <!-- <li class="section-subheading text-muted" style="font-size: 15px; margin-left: 30px;">Hybrid App</ul> -->
         </li><br/>
 
         <!-- <div class="row">
@@ -651,7 +675,43 @@
                                     Photography
                                 </li> -->
                             </ul>
-                            <a href="https://github.com/ShimDaeSung1/JSP/blob/main/README.md" target="_blank">
+                            <a href="https://shimdaesung1.github.io/JSP/" target="_blank">
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <!-- <i class="fas fa-xmark me-1"></i> -->
+                                이동하기
+                            </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item 7 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="new_assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">모델2 방식(MVC패턴)의 자료실형 게시판</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="new_assets/img/게시판(모델1).png" alt="..." />
+                            <p>목록 보기, 글쓰기(파일 업로드), 상세 보기, 파일 다운로드, 수정하기, 삭제하기 기능 포함한 비회원제 자료실형 게시판 만들기 - EL, JSTL, JSP, 파일 업로드/다운로드, 서블릿, 자바스크립트 사용</p>
+                            <ul class="list-inline">
+                                <!-- <li>
+                                    <strong>Client:</strong>
+                                    Window
+                                </li>
+                                <li>
+                                    <strong>Category:</strong>
+                                    Photography
+                                </li> -->
+                            </ul>
+                            <a href="https://github.com/ShimDaeSung1/JSP-2-MVC-" target="_blank">
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <!-- <i class="fas fa-xmark me-1"></i> -->
                                 이동하기
